@@ -1,0 +1,560 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body{
+    font-family: "Montserrat" , sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    position:fixed;
+    width: 100%;
+    z-index: 99;
+    backdrop-filter: blur(3px);
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+}
+.nav a{
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0 46px;
+
+}
+#hero{
+    background: url("../img/logo1.png")no-repeat center/cover;
+    min-height: 100vh;
+    padding: 150px 0;
+}
+.hero-title{
+    padding: 128px 0;
+}
+.hero-title h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+.hero-title h1 span{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: rgb(246, 139, 51);
+}
+.hero-title p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    padding: 48px 0;
+}
+.hero-title p span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgb(246, 139, 51);
+}
+.hero-title .btn00{
+    width: 331px;
+    height: 41px;
+    background: #FF9900;
+    border-radius: 60px 0 0 60px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.hero-title .btn0{
+    background: transparent;
+    border-radius: 0 60px 60px 0;
+    border: 1px solid #000000;
+    width: 150px;
+    height: 41px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.btn{
+    display: flex;
+    align-items: center;
+}
+#our{
+    background: url("../img/fon.svg") no-repeat center/cover;
+    padding: 80px;
+}
+.ui{
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin: 0 30px;
+}
+.ui span{
+    font-weight: 700;
+    font-size: 36px;
+    color: #c4980a;
+}
+.image{
+    position: relative;
+    z-index: 99;
+    top: 62px;
+    left: 20px;
+}
+.oru{
+    position: relative;
+    width: 241px;
+    height: 267px;
+    background: radial-gradient(100% 100% at 0% 0%, rgba(99, 99, 99, 0.58) 0%, rgba(99, 99, 99, 0.58) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    padding-top: 50px;
+}
+.oru h1{
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+.oru p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.hh2 h3{
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.hh2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+.poi{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.poi h2{
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.poi button{
+    width: 83px;
+    height: 25px;
+    background: #FF9900;
+    border-radius: 60px;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#blocks{
+    background: url("../img/logo4.png") no-repeat top/cover;
+    min-height: 100vh;
+    padding-top: 150px;
+}
+.blocks{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.block h1{
+    font-weight: 600;
+    font-size: 24px;
+    text-align:start;
+    color: #FFFFFF;
+
+}
+.block h2{
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding-bottom:50px;
+}
+.block p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+.bg{
+    position: absolute;
+    top: 65px;
+    left: 79px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 70px;
+    width: 118px;
+    height: 118px;
+    background: #282626;
+    text-align: center;
+}
+.bg2{
+    position: absolute;
+    top: -69px;
+    left: 302px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 70px;
+    width: 118px;
+    height: 118px;
+    background: #282626;
+    text-align: center;
+}
+.bg3{
+    position: absolute;
+    top: 72px;
+    left: 516px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 70px;
+    width: 118px;
+    height: 118px;
+    background: #282626;
+    text-align: center;
+}
+.bg4{
+    position: absolute;
+    top: 341px;
+    left: 143px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 70px;
+    width: 118px;
+    height: 118px;
+    background: #282626;
+    text-align: center;
+}
+.bg5{
+    position: absolute;
+    top: 317px;
+    left: 514px;
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 118px;
+    height: 118px;
+    background: #282626;
+    text-align: center;
+}
+.bf5{
+    position: absolute;
+    top: 304px;
+    left: 502px;
+    width: 142px;
+    height: 142px;
+    background: #FF9900;
+    border-radius: 70px;
+}
+#input{
+    background: url("../img/fon2.png") no-repeat center/cover;
+    min-height: 100vh;
+    padding: 90px 0;
+}
+.input-title{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+.input-title input{
+
+}
+.input-title h1{
+    font-weight: 600;
+    font-size: 24px;
+    color: #FF9900;
+    margin-top: 30px;
+}
+.input-title label input{
+    width: 343px;
+    height: 38px;
+    border: 1px solid #FF9900;
+    background: transparent;
+    color: #FFFFFF;
+    margin: 30px 0;
+}
+.titleo label input {
+    width: 168px;
+    height: 38px;
+    border: 1px solid #FF9900;
+    background: transparent;
+    color: white;
+    margin-top: 14px;
+}
+.input-title label textarea{
+    width: 343px;
+    height: 38px;
+    text-align: center  ;
+    padding-top:10px;
+    border: 1px solid #FF9900;
+    background: transparent;
+    color: white;
+    margin-top: 8px;
+}
+.input-title button{
+    width: 250px;
+    height: 51px;
+    background: #FF9900;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 110px;
+}
+#limon{
+    background: url("../img/log7.png") no-repeat center/cover;
+    padding-top: 90px;
+}
+.limon-bg{
+    width: 500px;
+    height: 591px;
+    background: radial-gradient(100% 100% at 0% 33.19%, rgba(126, 126, 126, 0.46) 0%, rgba(114, 112, 112, 0.46) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    backdrop-filter: blur(5px);
+    border-radius: 60px;
+}
+.limon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.limon-title h1{
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.limon-title p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    padding: 70px 0;
+}
+.limon-title button{
+    width: 270px;
+    height: 63px;
+    border: 1px solid #FF9900;
+    border-radius: 60px;
+    font-weight: 600;
+    font-size: 36px;
+    background: transparent;
+    color: #FFFFFF;
+}
+.lime{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.lime h1{
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.lime p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+.lime-bg a{
+    color: #da711b;
+    font-size: 20px;
+}
+.lime-title{
+    display: flex;
+    align-items:start;
+    justify-content: space-evenly;
+    text-align:start;
+    font-weight: 400;
+    font-size: 12px;
+    color: #ffffff;
+}
+.lime2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.lime2 h1{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.lime2 p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+.lime2-bg a{
+    color: #da711b;
+    font-size: 20px;
+}
+.lime2-title{
+    display: flex;
+    align-items:start;
+    justify-content: space-evenly;
+    text-align:start;
+    font-weight: 400;
+    font-size: 12px;
+    color: #ffffff;
+}
+.images{
+    position: relative;
+}
+.images-title img{
+    margin: 0 12px;
+    padding: 142px 0;
+}
+.images .ju{
+    position: absolute;
+    color: #da711b;
+    font-size: 60px;
+    top: 205px;
+    right: 173px;
+}
+.images-title .qw{
+    width: 100px;
+}
+.images-title .qw2{
+    width: 100px;
+}
+.images-title .qw3{
+    width: 100px;
+}
+.images-title .qw4{
+    width: 100px;
+}
+
+.ji a{
+    position: absolute;
+    color: #da711b;
+    font-size: 60px;
+    top: 205px;
+    right: 418px;
+}
+.buk{
+    position: absolute;
+    bottom: 43px;
+    left: 508px;
+    width: 37px;
+    height: 37px;
+    border: 3px solid #FF9900;
+    border-radius: 40px;
+    background: #da711b;
+}
+.buk2{
+    position: absolute;
+    bottom: 47px;
+    left: 614px;
+    width: 37px;
+    height: 37px;
+    border: 3px solid #FF9900;
+    border-radius: 40px;
+}
+.buk3{
+    position: absolute;
+    bottom: -1px;
+    left: 108px;
+    width: 37px;
+    height: 37px;
+    border: 3px solid #FF9900;
+    border-radius: 40px;
+}
+.buk4{
+    position: absolute;
+    bottom: -1px;
+    left: 104px;
+    width: 37px;
+    height: 37px;
+    border: 3px solid #FF9900;
+    border-radius: 40px;
+}
+#footer{
+    background: black;
+    padding: 132px 0;
+    position: relative;
+}
+.footer{
+    position: absolute;
+    bottom: 75px;
+    left: 215px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1107px;
+}
+.footer-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 452px;
+    line-height: 52px;
+
+}
+.footer-title p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.ppi{
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.food p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.roc p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.fod{
+    position: absolute;
+    bottom: -30px;
+    left: 40px;
+    width: 1460px;
+    height: 293px;
+    border: 1px solid #FF9900;
+    border-radius: 40px;
+}
+.ion{
+
+}
