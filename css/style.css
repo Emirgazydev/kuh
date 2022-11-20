@@ -508,7 +508,7 @@ a{
 }
 .footer{
     position: absolute;
-    bottom: 75px;
+    bottom: 29px;
     left: 215px;
     display: flex;
     align-items: center;
@@ -547,12 +547,8 @@ a{
     color: #FFFFFF;
 }
 .fod{
-    position: absolute;
-    bottom: -30px;
-    left: 40px;
-    width: 1460px;
-    height: 293px;
-    border: 1px solid #FF9900;
+    height: 58px;
+    border-top: 1px solid #FF9900;
     border-radius: 40px;
 }
 .ion{

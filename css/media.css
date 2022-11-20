@@ -17,6 +17,9 @@
     .images-title .qw4 {
         width: 99px;
     }
+    .fod{
+        height: 89px;
+    }
 
 }
 @media (max-width: 1200px) {
@@ -44,9 +47,9 @@
     .bg5{
         left: 450px;
     }
-    .fod{
-        left: 7px;
-        width: 1183px;
+    .fod {
+        margin-left: -54px;
+        width: 1190px;
     }
     .footer{
         width: 1056px;
@@ -91,8 +94,7 @@
         justify-content: space-between;
     }
     .fod {
-        left: 7px;
-        width: 1011px;
+        width: 1027px;
     }
     .footer-title{
         width: 345px;
@@ -133,8 +135,7 @@
         top: 146px;
     }
     .fod {
-        left: 2px;
-        width: 987px;
+        width: 997px;
     }
     .footer {
         left: 51px;
@@ -270,8 +271,9 @@
         font-size: 14px;
         margin-bottom: 18px;
     }
-    .fod{
-        width: 759px;
+    .fod {
+        width: 768px;
+        margin-left: -39px;
     }
     .footer-title p{
         font-size: 12px;
@@ -411,7 +413,7 @@
         width: 98px;
     }
     .oru {
-        width: 148px;
+        width: 138px;
         height: 144px;
     }
     .oru h1 {
@@ -528,7 +530,8 @@
         left: 49px;
     }
     .fod {
-        width: 569px;
+        width: 574px;
+        margin-left: -28px;
     }
     .footer {
         width: 478px;
@@ -566,11 +569,16 @@
         font-size: 24px;
     }
     .oru {
-        width: 124px;
+        width: 110px;
         height: 112px;
     }
     .image {
-        width: 86px;
+        width: 79px;
+        top: 45px;
+        left: 17px;
+    }
+    #our {
+        padding: 3px;
     }
     .oru h1 {
         font-size: 9px;
@@ -650,11 +658,14 @@
         height: 8px;
     }
     .fod {
-        width: 444px;
-        bottom: -92px;
+        width: 447px;
+        margin-left: -20px;
+    }
+    #footer {
+        padding: 100px 0;
     }
     .footer {
-        width: 378px;
+        width: 376px;
     }
     .swiper-button-next, .swiper-button-prev {
         color: transparent;
@@ -664,8 +675,12 @@
     .swiper-button-next, .swiper-button-prev {
         color: transparent;
     }
+    #hero{
+        padding: 8px 0;
+    }
     .hero-title h1 {
         font-size: 15px;
+        line-height: 20px;
     }
     .hero-title h1 span{
         font-size: 15px;
@@ -771,7 +786,7 @@
         height: 4px;
     }
     .fod {
-        width: 394px;
+        width: 401px;
     }
     .footer{
         width: 330px;
@@ -832,7 +847,7 @@
         width: 20px;
     }
     .fod {
-        width: 370px;
+        width: 378px;
     }
     .footer {
         width: 307px;
@@ -843,5 +858,223 @@
 
 }
 @media (max-width: 320px) {
+    .nav a{
+        margin: 0 33px;
+    }
+    .hero-title h1 {
+        line-height: 20px;
+    }
+    .hero-title .btn00 {
+        width: 88px;
+        font-size: 4px;
+        height: 16px;
+    }
+    .hero-title .btn0 {
+        font-size: 4px;
+        width: 44px;
+        height: 15px;
+    }
+    #hero {
+        padding: 15px 0;
+        min-height: 77vh;
+    }
+    .ui {
+        font-size: 15px;
+    }
+    .ui span {
+        font-size: 18px;
+        margin-left: 23px;
+    }
+    #our {
+        padding: 0;
+    }
+    .oru {
+        width: 75px;
+        height: 64px;
+    }
+    .oru h1{
+        line-height: 9px;
+        margin-top: -23px;
+    }
+    .oru p{
+        line-height: 8px;
+        font-size: 5px;
+        padding: 1px 0;
+    }
+    .ion {
+        width: 172px;
+    }
+    .bg {
+        width: 44px;
+        height: 44px;
+        left: 28px;
+        top: 44px;
+    }
+    .bg img {
+        width: 26px;
+    }
+    .bg2 {
+        width: 45px;
+        height: 45px;
+        left: 127px;
+        top: -34px;
+    }
+    .bg3 {
+        width: 45px;
+        height: 45px;
+        left: 202px;
+        top: 37px;
+    }
+    .bg3 img {
+        width: 24px;
+    }
+    .bg4{
+        width: 45px;
+        height: 45px;
+        left: 65px;
+        top: 141px;
+    }
+    .bg4 img {
+        width: 27px;
+    }
+    .bf5{
+        width: 51px;
+        height: 51px;
+        top: 134px;
+        left: 187px;
+    }
+    .bg5 {
+        width: 45px;
+        height: 45px;
+        left: 190px;
+        top: 138px;
+    }
+    .block h1 {
+        font-size: 14px;
+    }
+    .block h2 {
+        font-size: 14px;
+        padding-bottom: 24px;
+    }
+    .input-title h1 {
+        margin-top: 15px;
+    }
+    .input-title label input {
+        width: 143px;
+        height: 15px;
+        margin: 12px 0;
+    }
+    .input-title h1 {
+        font-size: 9px;
+    }
+    .input-title button {
+        width: 89px;
+        height: 26px;
+        font-size: 8px;
+        margin-top: 63px;
+    }
+    #input {
+        padding: 51px 0;
+    }
+    .limon-title h1 {
+        font-size: 16px;
+    }
+    .limon-title p {
+        font-size: 8px;
+        padding: 34px 0;
+    }
+    .limon-title button {
+        width: 82px;
+        height: 25px;
+        font-size: 9px;
+    }
+    .lime h1 {
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+    .lime p {
+        font-size: 6px;
+        padding: 5px 0;
+    }
+    .lime img{
+        width: 46px;
+    }
+    .lime-bg a {
+        font-size: 8px;
+    }
+    .lime2 h1 {
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+    .lime2 p {
+        font-size: 6px;
+        padding: 5px 0;
+    }
+    .lime2 img{
+        width: 46px;
+    }
+    .lime2-bg a {
+        font-size: 8px;
+    }
+    .limon-bg {
+        width: 246px;
+        height: 360px;
+    }
+    .input-title label textarea {
+        width: 154px;
+        height: 34px;
+    }
+    .images-title{
+        display: none;
+    }
+    .buks{
+        display: none;
+    }
+    .fod {
+        width: 326px;
+    }
+    .footer {
+        width: 283px;
+        left: 20px;
+    }
+    .footer-title {
+        width: 71px;
+        line-height: 18px;
+    }
+    .footer {
+        bottom: 48px;
+    }
+    .block p {
+        font-size: 8px;
+    }
+
+    .bg5 img {
+        width: 26px;
+    }
+    .bg2 img {
+        width: 26px;
+    }
+
+    .hh2 h3 {
+        font-size: 3px;
+    }
+    .poi button {
+        width: 27px;
+        height: 8px;
+        font-size: 3px;
+    }
+    .hh2 {
+        padding: 0 0;
+    }
+    .poi h2 {
+        font-size: 4px;
+    }
+
+
+    .image{
+        left: 10px;
+        width: 59px;
+        top: 28px;
+    }
 
 }
